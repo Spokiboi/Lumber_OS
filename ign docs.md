@@ -30,5 +30,3 @@ Drawing commands are used to create shapes and lines.
 - `load.ign example x y z`: Load other IGN files from your files. Example: `load.ign example 100 0 0;`
 
 These commands can be used in LumberImage to create and manipulate images. Remember to use the specified separators and indicators to ensure proper execution of commands.
-
-Use `/#clear` to close this menu when you're done reading.
