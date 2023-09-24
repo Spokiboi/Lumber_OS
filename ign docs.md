@@ -3,8 +3,7 @@
 LumberImage is a tool for creating and manipulating images using various commands.
 
 ## General Commands
-
-- `/#clear`: Close the menu when you're done reading.
+None yet
 
 ## Setting Commands
 
