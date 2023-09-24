@@ -1,0 +1,20 @@
+thanks for using lumberimage!
+
+use /#clear to close this menu when you re done reading.
+
+the seperator is §, if you dont have this then paste with ctrl+v
+
+Setting Command: you can use "s" as your first command indicator as in "s§secondary§number§;"
+
+s§z: size, used as "s§z§[number]§"
+s§b: changes brightness as "s§b§[number]§;"
+there is also color and saturation used similarly as s§b
+s§h: hex color
+
+draw commands:
+line: (d§l) draws a line " d§l§x1§y1§x2§y2§ "
+dot: (d§d) draws a dot " d§d§x§y§ "
+circle: (d§c) draws a circle " d§c§x§y§z§ "
+line-continue: (l§q) continues a line from the previous position " d§lq§x§y§ "
+
+load: (load.ign) loads other ign files in your files " load.ign example x y z "

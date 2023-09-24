@@ -1,0 +1,45 @@
+thanks for using lumberscript!
+
+use ; at the end of each line like " trc.dot. 0 10 ; "
+
+pen: change pen settings
+    col: change pen color on a -100 - 100 scale. used like " pen.col #  "
+    sat: change pen saturation, preffered on 0 to make a grey-scale text like " pen.sat #  "
+    bri: change pen brightness, used as 0 or 100 most often, used like " pen.bri #  "
+    siz: change pen size, used like " pen.siz #  "
+    erease: ereases screen, used as " pen.erease "
+    hex: changes pen based on hex, used as " pen.hex ffffff "
+
+trc: trace a pen shape, ign files are preferred for this job
+    lin: draw a line like " trc.lin 1st x 1st y 2nd x 2nd y  "
+    dot: draw a dot like " trc.dot x y  "
+
+wait: waits a specified time as " wait # "
+
+var: sets a variable, the only way to calculate things
+    uses as so: if you wanted 15 + 10 + 20 it would be
+    "var.set:example:! 15 + 10 !;
+     var.set:example:! §example§ + 20 !;"
+    has currently: +, -, *, /, mod, variable inputs, %
+    includes " var.cng example number "
+    can also delete variables with " var.del example " which reduces lag
+    inputs to any input with for example " txt.prt -100 0 100 §example§ "
+
+txt: displays text
+    prt: prints text on-screen like " txt.prt x y size text "
+         example: txt.prt -100 100 100 §points§ ;
+
+load: loads external files from user system, requires no folders
+     ign: loads an image previously made with scaling equal to that of scratch's system
+          used like so " load.ign example 100 0 0 " example: load.ign cute_hamster 100 0 0 ;
+
+if: checks an if statement, to make a line run only by if statements make sure to put a forward-slash in front of the semicolon like so:
+    " txt.prt 0 0 100 example /; "
+   key: checks if a key is pressed, used as " if.key w 1 " which checks for w key, if it is pressed it runs line 1.
+   eq: checks if a value is equal, used as " if.eq 10 §points§ 1 " which checks if points is 10 and runs line 1 if it is.
+
+loop: loops to a specified line, can be used infinitivly if no stop script commands are called. used as " loop 1 " at the end of the script to make an infinite loop.
+
+dcapi: an api for checking discord stats.
+      load: loads an avatar of a user like " dcapi.load. userID skinName "
+      action: switches to a skin already loaded by script, used as " dcapi.action. skinName "
