@@ -34,7 +34,15 @@ Lumberscript is a scripting language for controlling various aspects of pen, tex
 - `var.del example`: Delete a variable to reduce lag. Example: `var.del example ;`
 
 ### Variable Expressions
-- `! 
+- Any expression can set variables to each other, so they can interact. Use `§any_variable§` instead of a number for this effect.
+- These variable interactions can have spaces, but this will mess up my code so i dont know how it would work.
+- `! # + # !` Add a number with a number, any expression can be used like `! # - # !`
+- `! # mod # !` Mod a number with another number, uses like already displayed.
+- `! dcapi full UserID !` Part of the discord API, shows the full user ID.
+- `! dcapi avat UserID !` Part of the discord API, copies down the users profile picture in image link.
+- `! dcapi name UserID !` Part of the discord API, copies down the users username.
+- `! ask !` Asks for an input using the scratch's ask funtion.
+- `! pc battery !` Requests the device battery percentage, it would return for me right now `89`
 
 ## Text Commands
 
