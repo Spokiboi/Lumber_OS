@@ -20,7 +20,7 @@ Lumberscript is a scripting language for controlling various aspects of pen, tex
 - `trc.dot x y`: Draw a dot. Example: `trc.dot 50 50 ;`
 
 ## Wait Command
-- `wait #`: Wait for a specified time in milliseconds. Example: `wait 2000 ;`
+- `wait #`: Wait for a specified time in seconds. Example: `wait 2 ;`
 
 ## Variable Commands
 
@@ -41,7 +41,7 @@ Lumberscript is a scripting language for controlling various aspects of pen, tex
 ## File Loading Commands
 
 ### Load External Files
-- `load.ign file_name x y z`: Load an image with scaling. Example: `load.ign example_image 100 0 0 ;`
+- `load.ign file_name x y z`: Load an image with scaling. Example: `load.ign example_image 0 50 100 ;`
 
 ## Conditional Statements
 
@@ -54,5 +54,5 @@ Lumberscript is a scripting language for controlling various aspects of pen, tex
 - `loop line_number`: Create a loop that goes to a specified line. Example: `loop 1 ;`
 
 ## Discord API Integration
-- `dcapi.load.userID skinName`: Load an avatar of a user. Example: `dcapi.load.12345 my_skin ;`
-- `dcapi.action.skinName`: Switch to a skin already loaded by the script. Example: `dcapi.action.skin1 ;`
+- `dcapi.load. userID skinName`: Load an avatar of a user. Example: `dcapi.load. 12345 my_skin ;`
+- `dcapi.action. skinName`: Switch to a skin already loaded by the script. Example: `dcapi. action.skin1 ;`
