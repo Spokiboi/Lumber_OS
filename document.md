@@ -33,6 +33,9 @@ Lumberscript is a scripting language for controlling various aspects of pen, tex
 - `var.cng example number`: Change the value of a variable. Example: `var.cng example 42 ;`
 - `var.del example`: Delete a variable to reduce lag. Example: `var.del example ;`
 
+#### Variable Expressions
+- `! 
+
 ## Text Commands
 
 ### Text Display
